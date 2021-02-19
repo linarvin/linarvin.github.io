@@ -1,0 +1,148 @@
+/*-------------- reset properties ----------------*/
+h1, h2, h3, h4, h5, h6, p, ul, li, figure {
+    padding: 0;
+    margin: 0;
+    font: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+/*--------------------------------------------------*/
+
+/*--------------topography--------------------------*/
+h1{
+    margin: 1.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+h2 {
+    font-size: 1.5rem;
+}
+p {
+    font-size: 1.1rem;
+}
+/*--------------------------------------------------*/
+
+/*--------------- utlities --------------------------*/
+.responsive-img{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    margin: 0px auto; /*center on the left and right edge*/
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/*--------------------------------------------------*/
+
+body {
+    background-color: lightblue;
+}
+header{
+   /* background-color: aqua;*/
+   margin: 1rem;
+}
+nav {
+    /*background-color: orange;*/
+    display: flex;
+    justify-content: flex-end;
+}
+button {
+    border: 0;
+    background-color: inherit;
+}
+button img {
+    height: 2rem;
+    width: 2rem;
+    
+}
+nav button a{
+    text-decoration: none;
+    color: black;
+}
+a {
+    
+    color: black;
+}
+main{
+    /*background-color: purple;*/
+}
+/*----------------- Profile ----------------*/
+.profile{
+    margin: 1rem;
+}
+.description{
+    margin: 1rem;
+}
+.description h2 {
+    margin: 1rem;
+    font-size: 3rem;
+}
+.description p{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.profile-img{
+    text-align: center;
+}
+
+/*---------------------------------------------*/
+
+/*------------------ Projects -----------------*/
+.proj-description{
+    margin: 1rem;
+}
+.proj-description h2 {
+    margin: 1rem;
+    font-size: 2rem;
+    font-style: italic;
+}
+.proj-description p{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+/*---------------------------------------------*/
+
+footer{
+    /*background-color: gray;*/
+}
+
+/*----- media inquries ------------------------*/
+
+/*---------- Desktop --------------------------*/
+@media all and (min-width: 1000px){
+    body{
+        /*background-color: blue;*/
+    }
+    main{
+        /*background-color: purple;*/
+    }
+    /*----------------- Profile ----------------*/
+    .profile{
+        display: flex;
+        align-items: center; 
+        margin: 1rem;
+    }
+    .profile-img{
+        width: 50%;
+    }
+    
+    /*---------------------------------------------*/
+    
+}
+/*----------------------------------------------*/
+
+
+/*---------------------------------------------*/
